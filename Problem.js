@@ -8,13 +8,13 @@ cubeNumber("tarek"); */
 
 // -----------------------------
 
-function matchFinder(string1, string2) {
+/* function matchFinder(string1, string2) {
     // const string1 = 'John Doe'
     const existString = string1.includes(string2);
     console.log(existString);
     }
 
-matchFinder('Peter Parker','Pet');
+matchFinder('Peter Parker','Pet'); */
 
 // -----------------------------
 
@@ -30,3 +30,12 @@ sortMaker(arr); */
 
 // -----------------------------
 
+function findAddress(obj) {
+    // const properties = Object.keys(obj);
+    const propertyValues = Object.values(obj);
+    console.log(propertyValues);
+}
+
+const obj = {street: 10,society: 'Earth Perfect'};
+
+findAddress(obj);
