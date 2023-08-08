@@ -4,7 +4,7 @@
     return result;
 }
 
-cubeNumber("tarek"); */
+cubeNumber("anything"); */
 
 // -----------------------------
 
@@ -30,7 +30,7 @@ sortMaker(arr); */
 
 // -----------------------------
 
-function findAddress(obj) {
+/* function findAddress(obj) {
     // const properties = Object.keys(obj);
     const propertyValues = Object.values(obj);
     console.log(propertyValues);
@@ -38,4 +38,20 @@ function findAddress(obj) {
 
 const obj = {street: 10,society: 'Earth Perfect'};
 
-findAddress(obj);
+findAddress(obj); */
+
+// -----------------------------
+
+function canPay(changeArray, totalDue) {
+    let arrSum = 0;
+    for(let i = 0; i < changeArray.length; i++){
+        let element = changeArray[i];
+        arrSum = arrSum + element;
+        console.log(arrSum);
+    } return arrSum;
+   
+}
+// console.log(arrSum);
+const changeArray = [1, 2, 5];
+let totalDue = 10;
+canPay(changeArray, totalDue);
